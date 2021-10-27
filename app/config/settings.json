@@ -1,0 +1,19 @@
+{
+  "APP_DISPLAY_NAME": "SpaceCube Launcher",
+
+  "WELCOME_HEADER_TEXT": "Welcome to SpaceCube!",
+  "WELCOME_DESC_TEXT": "hello",
+  "WELCOME_DESC_CTA": "N/A gesd ",
+
+  "WEBSITE_ENABLE": true,
+  "WEBSITE_URL": "https://www.space-cube.xyz",
+  "TWITTER_ENABLE": true,
+  "TWITTER_URL": "https://twitter.com/spacecube",
+  "INSTAGRAM_ENABLE": true,
+  "INSTAGRAM_URL": "https://www.instagram.com/spacecube.xyz/",
+  "YOUTUBE_ENABLE": true,
+  "YOUTUBE_URL": "https://www.youtube.com/channel/UCx_iGrTo1z_ZuOf2w_Lfl1Q",
+  "DISCORD_ENABLE": true,
+  "DISCORD_URL": "https://discord.gg/6hGF569"
+
+}
