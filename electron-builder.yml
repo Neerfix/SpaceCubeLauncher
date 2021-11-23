@@ -1,8 +1,8 @@
-appId: 'modrealmslauncher'
-productName: 'ModRealms Launcher'
+appId: 'spacecubelauncher'
+productName: 'SpaceCube Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2021 ModRealms'
+copyright: 'Copyright © 2021 Spacecube'
 
 asar: true
 compression: 'maximum'
@@ -14,8 +14,8 @@ extraResources:
   - 'libraries'
 
 # Windows Configuration
-win: 
-  target: 
+win:
+  target:
     - target: 'nsis'
       arch: 'x64'
 
@@ -37,7 +37,7 @@ mac:
   category: 'public.app-category.games'
 
 # Linux Configuration
-linux: 
+linux:
   target: 'AppImage'
   maintainer: 'Ally'
   vendor: 'ModRealms Network'

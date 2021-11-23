@@ -1,13 +1,13 @@
 {
-  "name": "modrealmslauncher",
-  "version": "2.5.1-release",
-  "productName": "ModRealms Launcher",
+  "name": "spacecubelauncher",
+  "version": "0.1.0",
+  "productName": "SpaceCube Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "ModRealms",
+  "author": "Neerfix",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/ModRealms-Network/HeliosLauncher",
+  "homepage": "https://github.com/Neerfix/SpaceCubeLauncher",
   "bugs": {
-    "url": "https://github.com/ModRealms-Network/HeliosLauncher/issues"
+    "url": "https://github.com/Neerfix/SpaceCubeLauncher/issues"
   },
   "private": true,
   "main": "index.js",
