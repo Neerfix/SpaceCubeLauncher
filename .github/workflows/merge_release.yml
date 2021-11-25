@@ -1,0 +1,19 @@
+name: Merge release
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  pull_request
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge pull requests (automerge-action)
+        # You may pin to the exact commit or the version.
+        # uses: pascalgn/automerge-action@01fb84a9d077930bf9d16d1f7fa3fe2ffe45aabe
+        uses: pascalgn/automerge-action@v0.14.3
+        env:
+          MERGE_LABELS: "autorelease: pending"
+          MERGE_DELETE_BRANCH: true
+          MERGE_METHOD: merge
+          MERGE_METHOD_LABELS: autorelease=merge
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
