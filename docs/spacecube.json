@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "discord": {
+        "clientId": "912712735253479485",
+        "smallImageText": "SpaceCube",
+        "smallImageKey": "seal-circle"
+    },
+    "servers": []
+}

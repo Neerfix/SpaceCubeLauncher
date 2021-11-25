@@ -1,5 +1,5 @@
 const APP_DATA_NAME = 'SpaceCubeLauncher'
-const LIVE_DISTRIBUTION_URL = 'https://launcher.modrealms.net/deploy/distribution.json'
-const DEV_DISTRIBUTION_URL = 'https://launcher.modrealms.net/dev-deploy/distribution.json'
+const LIVE_DISTRIBUTION_URL = 'http://www.space-cube.xyz/distribution'
+const DEV_DISTRIBUTION_URL = 'http://dev.space-cube.xyz:9080/distribution'
 
 module.exports = { APP_DATA_NAME, LIVE_DISTRIBUTION_URL, DEV_DISTRIBUTION_URL }
