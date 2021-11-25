@@ -1,0 +1,16 @@
+name: create a release on merge
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  push:
+    branches: [ master ]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: release-please-action
+        uses: google-github-actions/release-please-action@v2.19.2
+        with:
+          token: ${{ secrets.TOKEN_GITHUB }}
+          release-type: node
+          default-branch: master
