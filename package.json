@@ -1,6 +1,6 @@
 {
   "name": "spacecubelauncher",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "productName": "SpaceCube Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Neerfix",
@@ -17,7 +17,8 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "lint": "eslint --config .eslintrc.json .",
+    "release": "standard-version"
   },
   "engines": {
     "node": "14.x.x"
@@ -40,6 +41,7 @@
     "remarkable": "^2.0.1",
     "request": "^2.88.2",
     "semver": "^7.3.5",
+    "standard-version": "^9.3.2",
     "tar-fs": "^2.1.1",
     "winreg": "^1.2.4"
   },
@@ -50,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ModRealms-Network/ModRealmsLauncher.git"
+    "url": "git+https://github.com/Neerfix/SpaceCubeLauncher.git"
   }
 }
