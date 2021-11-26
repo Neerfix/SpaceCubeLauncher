@@ -22,7 +22,7 @@ jobs:
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
         with:
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.TOKEN_GITHUB }}
 
           # If the commit is tagged with a version (e.g. "v1.0.0"),
           # release the app after building
